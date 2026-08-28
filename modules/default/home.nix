@@ -6,5 +6,6 @@
     fastfetch
     fetch
     neovim
+    tmux
   ];
 }
