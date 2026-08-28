@@ -10,5 +10,6 @@
   imports = [
     ../../modules/default/home.nix
     ../../modules/git/home.nix
+    ../../modules/shell/home.nix
   ];
 }
