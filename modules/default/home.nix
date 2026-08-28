@@ -5,5 +5,6 @@
     btop
     fastfetch
     tmux
+    tree
   ];
 }
