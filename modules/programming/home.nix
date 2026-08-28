@@ -8,6 +8,7 @@
       nvim-tree-lua
       mini-pick
       lualine-nvim
+      nvim-autopairs
 
       # dependencies
       nvim-web-devicons # nvim-tree-lua, lualine-nvim

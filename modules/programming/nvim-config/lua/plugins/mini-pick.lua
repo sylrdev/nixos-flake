@@ -1,4 +1,4 @@
-require("plugins.nvim-web-devicons")
+require("plugins.web-devicons")
 
 require("mini.pick").setup()
 
