@@ -7,9 +7,10 @@
     plugins = with pkgs.vimPlugins; [
       nvim-tree-lua
       mini-pick
+      lualine-nvim
 
       # dependencies
-      nvim-web-devicons # nvim-tree-lua
+      nvim-web-devicons # nvim-tree-lua, lualine-nvim
     ];
   };
 
