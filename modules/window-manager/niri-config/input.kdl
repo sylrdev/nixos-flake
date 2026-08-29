@@ -1,0 +1,25 @@
+input {
+	keyboard {
+		xkb {
+			layout "us"
+		}
+		numlock
+	}
+	
+	touchpad {
+		accel-speed 0.0
+		accel-profile "flat"
+		dwt
+	}
+
+	mouse {
+		accel-speed 0.0
+		accel-profile "flat"
+	}
+
+	trackpoint {
+		off
+	}
+
+	focus-follows-mouse
+}

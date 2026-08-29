@@ -12,5 +12,6 @@
     ../../modules/shell/home.nix
     ../../modules/git/home.nix
     ../../modules/programming/home.nix
+    ../../modules/window-manager/home.nix
   ];
 }

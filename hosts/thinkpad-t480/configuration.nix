@@ -10,6 +10,7 @@
     ./hardware-configuration.nix
     ../../modules/default/configuration.nix
     ../../modules/shell/configuration.nix
+    ../../modules/window-manager/configuration.nix
   ];
 
   # Bootloader.
