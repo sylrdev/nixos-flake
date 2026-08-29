@@ -1,4 +1,4 @@
-{ pkgs, ... } :
+{ pkgs, ... }:
 
 {
   programs.neovim = {
@@ -10,16 +10,19 @@
       lualine-nvim
       nvim-autopairs
       gitsigns-nvim
-      (nvim-treesitter.withPlugins (p: with p; [
-		    nix
-		    lua
-		    luau
-	    ]))
+      (nvim-treesitter.withPlugins (
+        p: with p; [
+          nix
+          lua
+          luau
+        ]
+      ))
       nvim-lspconfig
       fidget-nvim
       blink-cmp
       luau-lsp-nvim
-      
+      conform-nvim
+
       # dependencies
       nvim-web-devicons # nvim-tree-lua, mini-pick, lualine-nvim
       lazydev-nvim # blink-cmp
@@ -35,6 +38,10 @@
     nixd
     lua-language-server
     luau-lsp
+
+    # formatters
+    nixfmt
+    stylua
   ];
 
   xdg.configFile."nvim".source = ./nvim-config;

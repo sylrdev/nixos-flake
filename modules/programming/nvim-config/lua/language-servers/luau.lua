@@ -21,14 +21,14 @@ vim.lsp.config("luau-lsp", {
 			inlayHints = {
 				functionReturnTypes = true,
 				parameterTypes = true,
-      		},
+			},
 		},
 	},
 })
 
 local function getProjectType()
 	local rojoProject = vim.fs.root(0, function(name)
-		return name:match ".+%.project%.json$"
+		return name:match(".+%.project%.json$")
 	end)
 
 	if rojoProject == true then

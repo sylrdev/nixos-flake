@@ -39,7 +39,7 @@ vim.lsp.config("*", {
 
 vim.lsp.enable {
 	"nixd",
-	"lua_ls"
+	"lua_ls",
 }
 
 require("language-servers.luau")

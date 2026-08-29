@@ -4,7 +4,6 @@ local languages = {
 	"luau",
 }
 
-
 require("nvim-treesitter").setup()
 
 vim.api.nvim_create_autocmd("FileType", {
