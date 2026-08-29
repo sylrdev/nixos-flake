@@ -19,8 +19,7 @@ vim.lsp.config("luau-lsp", {
 				showTableKinds = true,
 			},
 			inlayHints = {
-				functionReturnTypes = true,
-				parameterTypes = true,
+				parameterNames = "all",
 			},
 		},
 	},

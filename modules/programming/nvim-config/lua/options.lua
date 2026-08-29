@@ -19,3 +19,5 @@ vim.diagnostic.config {
 	float = { border = "rounded" },
 	virtual_lines = { current_line = false },
 }
+
+vim.lsp.inlay_hint.enable(true)
