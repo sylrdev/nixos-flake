@@ -22,6 +22,7 @@
       blink-cmp
       luau-lsp-nvim
       conform-nvim
+      nvim-lint
 
       # dependencies
       nvim-web-devicons # nvim-tree-lua, mini-pick, lualine-nvim
@@ -42,6 +43,9 @@
     # formatters
     nixfmt
     stylua
+
+    # linters
+    selene
   ];
 
   xdg.configFile."nvim".source = ./nvim-config;
