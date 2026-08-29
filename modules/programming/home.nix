@@ -18,6 +18,7 @@
       nvim-lspconfig
       fidget-nvim
       blink-cmp
+      luau-lsp-nvim
       
       # dependencies
       nvim-web-devicons # nvim-tree-lua, mini-pick, lualine-nvim
@@ -33,6 +34,7 @@
     # language servers
     nixd
     lua-language-server
+    luau-lsp
   ];
 
   xdg.configFile."nvim".source = ./nvim-config;
