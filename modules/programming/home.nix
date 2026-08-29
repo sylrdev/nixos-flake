@@ -23,6 +23,7 @@
       luau-lsp-nvim
       conform-nvim
       nvim-lint
+      catppuccin-nvim
 
       # dependencies
       nvim-web-devicons # nvim-tree-lua, mini-pick, lualine-nvim
