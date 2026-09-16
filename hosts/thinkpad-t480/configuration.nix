@@ -11,6 +11,7 @@
     ../../modules/default/configuration.nix
     ../../modules/shell/configuration.nix
     ../../modules/window-manager/configuration.nix
+    ../../modules/nvidia-drivers/configuration.nix
   ];
 
   # Bootloader.
